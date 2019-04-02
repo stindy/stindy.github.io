@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>VueJS là gì, tại sao lại là VueJS?</title>
+      <link href="/2018/11/13/VueJS-la-gi-tai-sao-lai-la-VueJS/"/>
+      <url>/2018/11/13/VueJS-la-gi-tai-sao-lai-la-VueJS/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/images/vuejs_logo.jpeg" alt="VueJS"></p><p>Tại sao lại là VueJS?<br>Đó chính là câu hỏi tôi sẽ giúp các bạn trả lời trong bài viết ngày hôm nay. Dựa vào những kinh nghiệm code bấy lâu nay, tôi sẽ dẫn các bạn từ chưa biết lập trình là gì cho đến lúc hoàn thiện được một sản phẩm đầu tay. Vâng. Nói đến VueJS nghe có vẻ rất hoang mang đối với những người mới nhập môn đúng không? Không để mất thời gian của các bạn, tôi sẽ bắt đầu luôn vào câu trả lời.</p><h1 id="VueJS-la-gi"><a href="#VueJS-la-gi" class="headerlink" title="VueJS là gì?"></a>VueJS là gì?</h1><h3 id="Khai-niem"><a href="#Khai-niem" class="headerlink" title="Khái niệm"></a>Khái niệm</h3><p>Thực ra tôi cũng chẳng biết khái niệm của nó là gì để giải thích cho các bạn cả, tuy nhiên tôi sẽ cố gắng tóm gọn một số khái niệm để các bạn có thể hiểu mục đích sử dụng của nó.</p><p>Để học cách tạo nên một trang web, bạn không thể bỏ qua các ngôn ngữ: HTML, CSS và JS (Javascript)</p><p><strong>HTML</strong>: đơn giản nó là cấu trúc giao diện trang web của bạn. Nó quyết định các thành phần có trong trang web của bạn. VD: trang web gồm phần đầu, phần thân và phân chân trang. Sử dụng HTML bạn sẽ dễ dàng quyết định được điều đó…</p><p><strong>CSS</strong>: nếu đã có cấu trúc trang web thì CSS chính là những tuỳ biến về giao diện cho web của bạn. Nó quyết định các phần trong giao diện sẽ được hiển thị như thế nào. VD: phần đầu sẽ có nền màu đỏ, chữ màu trắng…</p><p><strong>JS</strong>: nó là phần nâng cao về xử lý các thao tác của người dùng. Nó là một ngôn ngữ rất mạnh mẽ, vừa có thể biên dịch ra HTML và cũng vừa có thể tạo ra CSS cho trang web của bạn. VD: nó sẽ giúp bạn biết được hành động khi người dùng click chuột vào một vị trí nào đó trong trang web của bạn…</p><p>Ôi, rất lòng vòng và câu trả lời cho khái niệm của VueJS vẫn chưa thấy đâu. Các bạn đã biết về các ngôn ngữ trên thì đừng vội nhé, hãy coi như là ôn lại một chút để cho các bạn mới có thời gian định hình 😆</p><p>Vậy, VueJS - nghe cái tên đã thấy mùi JS xuất hiện trong đó rồi. Quả đúng như vậy, VueJS là một framework của javascript. Đọc đến đây thì các bạn mới có thể sẽ nghĩ rằng: Phờ rêm guốc là cái qué gì vậy? Phức tạp quá đê =))). Thế nhưng hãy bình tĩnh, bài viết đầu tiên có thể rất nhiều chữ, thế nhưng hãy tin tôi đi.. nó sẽ không làm các bạn thất vọng đâu ☺️</p><p><em>Framework</em> là gì? Các bạn có thể hiểu đơn giản nó là một cái bộ khung được cung cấp sẵn, giúp bạn tiết kiệm thời gian trong quá trình code.<br>Vậy VueJS đơn giản là một bộ khung có sẵn giúp bạn không tốn nhiều thời gian trong quá trình lập trình web. Easy phải không nhỉ? 😆</p><h3 id="Tai-sao-lai-lua-chon-VueJS"><a href="#Tai-sao-lai-lua-chon-VueJS" class="headerlink" title="Tại sao lại lựa chọn VueJS?"></a>Tại sao lại lựa chọn VueJS?</h3><p>Javascript là một ngôn ngữ rất mạnh mẽ, nó có quá nhiều framework. Vậy tại sao tôi lại chọn VueJS để hướng dẫn cho các bạn?</p><p>Bởi vì theo như tôi cũng như nhiều lập trình viên khác đã kiểm thử và đánh giá thì:</p><ul><li>VueJS sàng lọc và kết hợp những tính năng tốt nhất từ các framework khác.</li><li>VueJS có thể đóng gói các thành phần của giao diện, giúp bạn dễ dàng tái sử dụng chúng.</li><li>Bạn có thể dễ dàng kết hợp các câu lệnh của VueJS với HTML để hiển thị giao diện một cách dễ dàng.</li></ul><p>Và còn nhiều hơn thế nữa. Như vậy, lý thuyết cũng vẫn chỉ là lý thuyết, ở bài viết tiếp theo hứa hẹn sẽ không còn dài dòng văn tự. Các bạn sẽ nắm bắt được những kiến thức cơ bản và hữu dụng nhất. Hãy yên tâm về điều đó.</p><p>Mọi ý kiến thắc mắc hoặc cần giải đáp hãy liên hệ cho tôi:<br>Số điện thoại: <strong>(+84) 963 078 038</strong><br>Email: <a href="mailto:stindy.me@gmail.com" target="_blank" rel="noopener">stindy.me@gmail.com</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> VueJS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hồi tưởng lại chút ký ức</title>
+      <link href="/2018/11/10/Hoi-tuong-lai-chut-ky-uc/"/>
+      <url>/2018/11/10/Hoi-tuong-lai-chut-ky-uc/</url>
+      
+        <content type="html"><![CDATA[<p><em>Chào ngày mới…</em><br>Sáng sớm thức giấc phi như tên lửa đến văn phòng, nó lại làm tôi gợi nhớ về những ngày thuở học hành đèn sách. Thoáng chốc đã mấy năm kể từ khi quyết định rời bỏ ghế nhà trường để theo đuổi cái mà tôi gọi là thử thách.</p><p>Ngay từ nhỏ tôi đã mò mẫm các kiến thức chẳng đâu vào đâu, cho đến khi học tại trường cao đẳng tôi mới có thể sắp xếp lại chúng. Có thể nói đó là quãng thời gian chán nản và áp lực nhất đối với tôi. Hồi đó bố tôi còn nói: “<em>Suốt ngày chỉ biết cắm đầu vào cái máy tính, chẳng làm được cái tích sự gì</em>. Để tao chống mắt lên xem mày làm được gì cho bố mẹ!. Thật sự lúc ấy tôi cảm thấy mọi thứ thật tệ. Chẳng còn dám ngồi máy tính khi có bố mẹ ở nhà nữa, tôi dần chuyển cuộc sống của mình vào màn đêm. Đứng giữa khóc khuất của cuộc sống, tôi dần lánh xa tất cả mọi người. Rồi cho đến một lúc, tôi phát hiện mình có triệu chứng của căn bệnh <em>Social Phobia</em> - Ám ảnh sợ xã hội. Càng nghĩ đến quãng thời gian đó, tôi càng cảm thấy sợ phải đối mặt với mọi thứ. Tôi cứ tự dồn mình vào ngõ cụt, mỗi khi đứng cạnh người lạ cứ có cảm giác như người trên mây vậy. Tôi sợ bị họ đánh giá kém, tôi tự ti về bản thân mình rất nhiều..</p><p>Ấy vậy mà tới giờ tôi cũng dần vượt qua được mọi thứ. Khó khăn thử thách chẳng làm khó được tôi. Có lẽ bởi vì áp lực lên tôi càng lớn thì tôi lại càng mạnh mẽ để chống lại. Hy vọng mọi người cũng thế, cuộc sống có thể có nhiều khó khăn.. nhưng hãy luôn là chính mình. Sự cố gắng sẽ luôn được đền đáp xứng đáng 😊</p><p>Thôi tới giờ fix bugs rồi, hẹn những dòng suy nghĩ tiếp theo trong một bài viết mới.. chạy nốt cho hết ngày không lại thất nghiệp 😂</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tâm sự của tôi </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
