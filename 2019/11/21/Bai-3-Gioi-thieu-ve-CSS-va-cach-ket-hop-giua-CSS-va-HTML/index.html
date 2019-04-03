@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="google-site-verification" content>
+  
+  <title>Bài 3 - Giới thiệu về CSS và cách kết hợp giữa CSS và HTML</title>
+  <meta name="author" content="Stindy">
+  <meta name="description" content="Sáng đi làm buồn ngủ rũ mắt nhưng vẫn phải cố trong cái khoảng thời gian ít việc này phải chăm chỉ viết bài cho các bạn tham khảo. Không dài dòng nữa,">
+  
+  
+  <meta property="og:title" content="Bài 3 - Giới thiệu về CSS và cách kết hợp giữa CSS và HTML">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:site_name" content="Stindy">
+  <link href="/apple-touch-icon-precomposed.png" sizes="180x180" rel="apple-touch-icon-precomposed">
+  <link rel="alternate" href="/atom.xml" title="Stindy" type="application/atom+xml">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/m.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+</html>
+<body>
+  <a id="top"></a>
+  <div id="main">
+    <div class="behind">
+      <a href="/" class="back black-color">
+        <svg class="i-close" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M2 30 L30 2 M30 30 L2 2"></path>
+        </svg>
+      </a>
+      <div class="description">
+        &nbsp;
+      </div>
+    </div>
+    <div class="main-ctnr">
+      
+
+  <article class="standard post">
+    <div class="title">
+      
+  
+    <h1 class="page-title center">
+        Bài 3 - Giới thiệu về CSS và cách kết hợp giữa CSS và HTML
+    </h1>
+  
+
+
+    </div>
+    <div class="meta center">
+      
+<time datetime="2019-11-21T03:03:04.000Z">
+<svg class="i-calendar" viewbox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9"/>
+  </svg>
+  &nbsp;
+  2019-11-21
+</time>
+
+
+
+    
+    &nbsp;
+    <svg class="i-tag" viewbox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <circle cx="24" cy="8" r="2"/>
+      <path d="M2 18 L18 2 30 2 30 14 14 30 Z"/>
+    </svg>
+    &nbsp;
+    <a href="/categories/Lap-trinh-Web/">Lập trình Web</a>
+
+
+
+
+
+    </div>
+    <hr>
+    
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#3-cach-ket-hop-giua-HTML-va-CSS"><span class="toc-text">3 cách kết hợp giữa HTML và CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Cach-1-Su-dung-truc-tiep-qua-thuoc-tinh-style"><span class="toc-text">Cách 1: Sử dụng trực tiếp qua thuộc tính style:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cach-2-Dinh-nghia-trong-the-style-cua-phan-head"><span class="toc-text">Cách 2: Định nghĩa trong thẻ style của phần head</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cach-3-Su-dung-rieng-biet-tap-tin-CSS"><span class="toc-text">Cách 3: Sử dụng riêng biệt tập tin CSS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tong-ket"><span class="toc-text">Tổng kết</span></a></li></ol></li></ol>
+    
+    <div class="picture-container">
+      
+    </div>
+    <p>Sáng đi làm buồn ngủ rũ mắt nhưng vẫn phải cố trong cái khoảng thời gian ít việc này phải chăm chỉ viết bài cho các bạn tham khảo. Không dài dòng nữa, mình sẽ đi luôn vào vấn đề chính. Hai bài viết trước mình đã giới thiệu và hướng dẫn cho các bạn cách tạo 1 trang HTML và những thẻ + thuộc tính cơ bản của nó.</p>
+<p>Hôm nay, mình sẽ giới thiệu cho các bạn về ngôn ngữ CSS. <strong>Vậy thì CSS là gì?</strong></p>
+<p>Nếu như HTML được ví như bộ khung của trang HTML thì CSS được tạo ra là để làm đẹp cho bộ khung đơn sơ và mộc mạc ấy. Mục đích của CSS là giúp bạn thể hiện được màu sắc, font chữ, kích thước các vùng hay nhiều hơn thế nữa trên trang HTML. Bắt đầu ngay để học cách kết hợp giữa CSS và HTML nhé.</p>
+<h1 id="3-cach-ket-hop-giua-HTML-va-CSS"><a href="#3-cach-ket-hop-giua-HTML-va-CSS" class="headerlink" title="3 cách kết hợp giữa HTML và CSS"></a>3 cách kết hợp giữa HTML và CSS</h1><h3 id="Cach-1-Su-dung-truc-tiep-qua-thuoc-tinh-style"><a href="#Cach-1-Su-dung-truc-tiep-qua-thuoc-tinh-style" class="headerlink" title="Cách 1: Sử dụng trực tiếp qua thuộc tính style:"></a>Cách 1: Sử dụng trực tiếp qua thuộc tính <code>style</code>:</h3><p>HTML có rất nhiều thẻ và tất cả các thẻ này đều có thể sử dụng thuộc tính <code>style</code></p>
+<p>Ví dụ: Mình muốn trang web của mình sẽ hiển thị một đoạn chữ có màu đỏ</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">"color: red;"</span>&gt;</span>Đoạn chữ này khi hiển thị sẽ có màu đỏ.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Ở cách sử dụng này các giá trị của CSS sẽ dược nằm trong cặp dấu <code>&quot;&quot;</code>. Mỗi thuộc tính của CSS sẽ được viết bởi <code>tên_thuộc_tính: giá_trị_thuộc_tính</code> và kết thúc bởi dấu <code>;</code>. Tương tự với nhiều thuộc tính CSS thì sẽ được viết như sau:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">"color: white; background: black"</span>&gt;</span>Đoạn chữ này khi hiển thị sẽ có màu trắng và nền màu đen.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="Cach-2-Dinh-nghia-trong-the-style-cua-phan-head"><a href="#Cach-2-Dinh-nghia-trong-the-style-cua-phan-head" class="headerlink" title="Cách 2: Định nghĩa trong thẻ style của phần head"></a>Cách 2: Định nghĩa trong thẻ <code>style</code> của phần <code>head</code></h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">style</span>&gt;</span><br><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line"><span class="attribute">color</span>: white;</span><br><span class="line"><span class="attribute">background</span>: black;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>Nội dung đầy đủ của trang HTML sẽ là:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Demo CSS<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">p &#123;</span></span><br><span class="line"><span class="undefined">color: white;</span></span><br><span class="line"><span class="undefined">background: black;</span></span><br><span class="line"><span class="undefined">&#125;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Đoạn chữ này khi hiển thị sẽ có màu trắng và nền màu đen.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Đoạn chữ này cũng thế.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="Cach-3-Su-dung-rieng-biet-tap-tin-CSS"><a href="#Cach-3-Su-dung-rieng-biet-tap-tin-CSS" class="headerlink" title="Cách 3: Sử dụng riêng biệt tập tin CSS"></a>Cách 3: Sử dụng riêng biệt tập tin CSS</h3><p>Nếu học lập trình Web, bạn sẽ cần phải quan tâm đến cấu trúc của thư mục chứa dữ liệu.</p>
+<p>Và mình thường tạo cấu trúc thư mục của mình như sau, các bạn có thể tham khảo :D</p>
+<p><img src="/images/p31.png" alt></p>
+<p>Nhìn sơ đồ trên thì có thể thấy, file <code>index.html</code> được đặt cùng hàng với các thư mục <code>css</code>, <code>js</code>, <code>img</code></p>
+<p>Vậy để file <code>index.html</code> nhận được và áp dụng tập tin <code>css</code> thì ta sẽ chèn dòng code sau vào phần <code>head</code> của trang HTML.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">“stylesheet”</span> <span class="attr">type</span>=<span class="string">“text/css”</span> <span class="attr">href</span>=<span class="string">“css/style.css”</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Với <code>css</code> là đường dẫn của thư mục và <code>style.css</code> là tên của file chứa CSS.</p>
+<p>Lúc này ta được nội dung như sau:</p>
+<p><strong>style.css</strong></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line"><span class="attribute">color</span>: white;</span><br><span class="line"><span class="attribute">background</span>: black;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>index.html</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Demo CSS<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Đoạn chữ này khi hiển thị sẽ có màu trắng và nền màu đen.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Đoạn chữ này cũng thế.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="Tong-ket"><a href="#Tong-ket" class="headerlink" title="Tổng kết"></a>Tổng kết</h3><p>Như vậy bài viết hôm nay mình đã giới thiệu tới các bạn 3 cách để kết hợp giữa HTML và CSS. Đối với tùy từng trường hợp thì các bạn sẽ chọn ra được cách sử dụng cho riêng mình. Ví dụ như các bạn chỉ cần tạo 1 file HTML thôi thì thiết nghĩ chẳng cần phải tạo cấu trúc thư mục rồi hẳn 1 file CSS riêng làm gì cho vất vả, đúng không? Các bài viết tiếp theo mình sẽ hướng dẫn và giới thiệu tới các bạn nhiều thẻ và nhiều thuộc tính CSS hơn. Đừng bỏ lỡ và cũng đừng nản lòng nhé, khó khăn chỉ vừa mới bắt đầu :3</p>
+
+
+  </article>
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+  <div class="busuanzi center">
+    Page Read:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
+    Stindy Read:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
+    Visitor:&nbsp;<span id="busuanzi_value_site_uv"></span>
+  </div>
+
+
+    
+
+
+
+
+    </div>
+  </div>
+  <footer class="page-footer"><div class="clearfix">
+</div>
+<div class="right-foot">
+    <div class="firstrow">
+        <a href="#top" target="_self">
+        <svg class="i-caret-right" viewbox="0 0 32 32" width="24" height="24" fill="none" stroke="#9e9d9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M10 30 L26 16 10 2 Z"/>
+        </svg>
+        </a>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+</footer>
+  <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="/js/search.min.js"></script>
+<script type="text/javascript">
+
+// disqus scripts
+
+
+// dropdown scripts
+$(".dropdown").click(function(event) {
+  var current = $(this);
+  event.stopPropagation();
+  $(current).children(".dropdown-content")[($(current).children(".dropdown-content").hasClass("open"))?'removeClass':'addClass']("open")
+});
+$(document).click(function(){
+    $(".dropdown-content").removeClass("open");
+})
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
+
+</script>
+
+</body>
+</html>

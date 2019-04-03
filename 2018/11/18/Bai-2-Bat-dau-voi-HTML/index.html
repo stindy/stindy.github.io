@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="google-site-verification" content>
+  
+  <title>Bài 2 - Bắt đầu với HTML</title>
+  <meta name="author" content="Stindy">
+  <meta name="description" content="Tiếp tục trong series loạt bài giới thiệu về lập trình Web, hôm nay mình sẽ mang thêm thông tin về ngôn ngữ HTML tới cho các bạn. HTML là từ viết tắt ">
+  
+  
+  <meta property="og:title" content="Bài 2 - Bắt đầu với HTML">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:site_name" content="Stindy">
+  <link href="/apple-touch-icon-precomposed.png" sizes="180x180" rel="apple-touch-icon-precomposed">
+  <link rel="alternate" href="/atom.xml" title="Stindy" type="application/atom+xml">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/m.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+</html>
+<body>
+  <a id="top"></a>
+  <div id="main">
+    <div class="behind">
+      <a href="/" class="back black-color">
+        <svg class="i-close" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M2 30 L30 2 M30 30 L2 2"></path>
+        </svg>
+      </a>
+      <div class="description">
+        &nbsp;
+      </div>
+    </div>
+    <div class="main-ctnr">
+      
+
+  <article class="standard post">
+    <div class="title">
+      
+  
+    <h1 class="page-title center">
+        Bài 2 - Bắt đầu với HTML
+    </h1>
+  
+
+
+    </div>
+    <div class="meta center">
+      
+<time datetime="2018-11-18T04:05:46.000Z">
+<svg class="i-calendar" viewbox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9"/>
+  </svg>
+  &nbsp;
+  2018-11-18
+</time>
+
+
+
+    
+    &nbsp;
+    <svg class="i-tag" viewbox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <circle cx="24" cy="8" r="2"/>
+      <path d="M2 18 L18 2 30 2 30 14 14 30 Z"/>
+    </svg>
+    &nbsp;
+    <a href="/categories/Lap-trinh-Web/">Lập trình Web</a>
+
+
+
+
+
+    </div>
+    <hr>
+    
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Cau-truc-tong-quan-cua-mot-trang-HTML"><span class="toc-text">Cấu trúc tổng quan của một trang HTML</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Cau-truc-tong-quan"><span class="toc-text">Cấu trúc tổng quan</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ket-qua-thu-duoc"><span class="toc-text">Kết quả thu được</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Giai-thich-chi-tiet"><span class="toc-text">Giải thích chi tiết</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mot-so-the-HTML-thong-dung"><span class="toc-text">Một số thẻ HTML thông dụng</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Loi-ket"><span class="toc-text">Lời kết</span></a></li></ol></li></ol>
+    
+    <div class="picture-container">
+      
+    </div>
+    <p>Tiếp tục trong series loạt bài giới thiệu về lập trình Web, hôm nay mình sẽ mang thêm thông tin về ngôn ngữ HTML tới cho các bạn. HTML là từ viết tắt của HyperText Markup Language (ngôn ngữ đánh dấu siêu văn bản). Nghĩ mãi chẳng ra, mình vừa phải search Google xem nó viết như nào đấy các ông các bà ạ =)))).</p>
+<p>Người ta thường ví HTML giống như bộ khung của một trang web. Nó là ngôn ngữ quyết định trang web của bạn sẽ gồm những thành phần nào. Vậy chúng ta sẽ bắt đầu ngay bằng cách mở máy tính lên và tạo một file có tên là <code>index.html</code> nhé. </p>
+<p>Để có thể mở file này lên và code thì chúng ta cần một phần mềm chỉnh sửa. Đối với các bạn dùng Windows hay dùng MacOS thì đều có thể tải phần mềm có tên <code>Sublime Text</code>. Mình sẽ đính kèm link tải ở đây:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.sublimetext.com/</span><br></pre></td></tr></table></figure>
+<p>Rồi xong, cài đặt và mở file vừa tạo lên nào.</p>
+<h1 id="Cau-truc-tong-quan-cua-mot-trang-HTML"><a href="#Cau-truc-tong-quan-cua-mot-trang-HTML" class="headerlink" title="Cấu trúc tổng quan của một trang HTML"></a>Cấu trúc tổng quan của một trang HTML</h1><h3 id="Cau-truc-tong-quan"><a href="#Cau-truc-tong-quan" class="headerlink" title="Cấu trúc tổng quan"></a>Cấu trúc tổng quan</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Basic HTML<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">Hello everybody. I'm Stindy</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="Ket-qua-thu-duoc"><a href="#Ket-qua-thu-duoc" class="headerlink" title="Kết quả thu được"></a>Kết quả thu được</h3><p>Paste đoạn code trên vào file của bạn, sau đó lưu lại và mở nó bằng trình duyệt Chrome sẽ nhận được kết quả sau:</p>
+<p><img src="images/p21.png" alt></p>
+<h3 id="Giai-thich-chi-tiet"><a href="#Giai-thich-chi-tiet" class="headerlink" title="Giải thích chi tiết"></a>Giải thích chi tiết</h3><p>Ngôn ngữ HTML dùng các thẻ để định dạng dữ liệu. Hầu hết các thẻ trong HTML thì đều có thẻ mở và thẻ đóng, ngoại trừ một số thẻ đặc biệt. Thẻ đóng khác với thẻ mở là có thêm dấu gạch chéo ở đầu.</p>
+<p>Nhìn vào trên chúng ta có thể thấy:</p>
+<p><code>&lt;html&gt;&lt;/html&gt;</code>: Cặp thẻ này dùng để bao bọc toàn bộ trang HTML. Hai thành phần con của nó là cặp thẻ <em>head</em> và <em>body</em>.</p>
+<p><code>&lt;head&gt;&lt;/head&gt;</code>: Bên trong cặp thẻ này sẽ chứa các thông tin về mô tả của trang HTML.</p>
+<p><code>&lt;title&gt;&lt;/title&gt;</code>: Nội dung trong cặp thẻ này sẽ được hiển thị tương ứng với phần màu đỏ của bức ảnh chụp màn hình phía trên.</p>
+<p><code>&lt;body&gt;&lt;/body&gt;</code>: Nội dung trong cặp thẻ này sẽ được hiển thị tương ứng với phần màu xanh của bức ảnh trên. Như vậy, thẻ này là thẻ lớn nhất trong phần nội dung, nó sẽ định dạng trang và chứa toàn bộ các thẻ hiển thị khác của trang HTML.</p>
+<h3 id="Mot-so-the-HTML-thong-dung"><a href="#Mot-so-the-HTML-thong-dung" class="headerlink" title="Một số thẻ HTML thông dụng"></a>Một số thẻ HTML thông dụng</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Thẻ</th>
+<th style="text-align:left">Ý nghĩa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>&lt;p&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code></td>
+<td style="text-align:left">Đây là các thẻ dùng để định dạng văn bản.<br><strong>p</strong>: tương ứng với đoạn văn bản<br><strong>b</strong>: tương ứng với thẻ in đậm<br><strong>i</strong>: tương ứng với thẻ in nghiêng<br><strong>u</strong>: tương ứng với văn bản được gạch chân<br><br>Ví dụ: <br><code>&lt;b&gt;Đây là một văn bản được in đậm&lt;/b&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>&lt;a&gt;</code></td>
+<td style="text-align:left">Đây là thẻ định dạng siêu liên kết.<br>Ví dụ:<br><code>&lt;a href=&quot;https://google.com&quot;&gt;Đây là đoạn chữ sẽ hiển thị&lt;/a&gt;</code><br>Khi người dùng click chuột vào <code>Đoạn chữ sẽ hiển thị</code> thì trình duyệt sẽ chuyển tới trang <strong>Google</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>&lt;ul&gt;</code>,<code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></td>
+<td style="text-align:left">Đây là các thẻ định dạng danh sách.</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>&lt;img&gt;</code></td>
+<td style="text-align:left">Đây là thẻ chèn hình ảnh.<br>Ví dụ:<br><code>&lt;img src=&quot;đường_dẫn_tới_ảnh&quot;&gt;&lt;/img&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>&lt;table&gt;</code></td>
+<td style="text-align:left">Đây là thẻ tạo bảng.</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>&lt;br&gt;</code></td>
+<td style="text-align:left">Để ngắt đoạn xuống dòng giữa các văn bản thì chúng ta cần phải sử dụng thẻ này. Khác với những thẻ khác là phải có thẻ mở và thẻ đóng thì đây lại là một loại thẻ đặc biệt. Chúng ta chỉ cần chèn 1 thẻ thì sẽ xuống 1 dòng, chèn 2 thẻ thì sẽ xuống 2 dòng.</td>
+</tr>
+</tbody>
+</table>
+<p>Có thể các bạn sẽ thắc mắc tại sao có một số thẻ phía trên lại có thêm những đoạn chữ ví dụ như <code>src=&quot;đường_dẫn_tới_ảnh&quot;</code> hay <code>href=&quot;https://google.com&quot;</code> đúng không? Nó được gọi là thuộc tính của thẻ. Mỗi thẻ thì sẽ có 0 hoặc 1 hay nhiều loại thuộc tính khác nhau và được viết ngay trước <code>&gt;</code> của <strong>thẻ mở</strong>.</p>
+<p>Khi thẻ có nhiều thuộc tính thì mỗi thuộc tính sẽ cách nhau bởi 1 khoảng trắng.</p>
+<p>Như ví dụ trên: <code>src</code> là tên thuộc tính và giá trị của thuộc tính đặt sau dấu <code>=</code> và nằm trong cặp dấu <code>&quot;&quot;</code>.</p>
+<h3 id="Loi-ket"><a href="#Loi-ket" class="headerlink" title="Lời kết"></a>Lời kết</h3><p>Vậy là bài học hôm nay đã giải thích cho các bạn biết cách để tạo và viết code cho một trang HTML cơ bản rồi. Những bài viết chi tiết hơn mình sẽ giới thiệu khi các bạn đã học xong cơ bản 3 ngôn ngữ <strong>HTML</strong>, <strong>CSS</strong> và <strong>Javascript</strong>. Bởi vì 3 ngôn ngữ này có liên quan mật thiết tới nhau, đừng bỏ lỡ nhé &lt;3</p>
+
+
+  </article>
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+  <div class="busuanzi center">
+    Page Read:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
+    Stindy Read:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
+    Visitor:&nbsp;<span id="busuanzi_value_site_uv"></span>
+  </div>
+
+
+    
+
+
+
+
+    </div>
+  </div>
+  <footer class="page-footer"><div class="clearfix">
+</div>
+<div class="right-foot">
+    <div class="firstrow">
+        <a href="#top" target="_self">
+        <svg class="i-caret-right" viewbox="0 0 32 32" width="24" height="24" fill="none" stroke="#9e9d9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path d="M10 30 L26 16 10 2 Z"/>
+        </svg>
+        </a>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+</footer>
+  <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="/js/search.min.js"></script>
+<script type="text/javascript">
+
+// disqus scripts
+
+
+// dropdown scripts
+$(".dropdown").click(function(event) {
+  var current = $(this);
+  event.stopPropagation();
+  $(current).children(".dropdown-content")[($(current).children(".dropdown-content").hasClass("open"))?'removeClass':'addClass']("open")
+});
+$(document).click(function(){
+    $(".dropdown-content").removeClass("open");
+})
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
+
+</script>
+
+</body>
+</html>
